@@ -33,7 +33,7 @@ header{
 footer{
   position: fixed;
   width: 100%;
-  background-color: #00;
+  background-color: #000;
   bottom:0;
   padding: 5px;
   text-align: right;
@@ -58,7 +58,7 @@ header ul li{
 }
 
 #back{
-  background-image: url(../images/spaceback.png);
+  background-image: url(../images/main.jpg);
   background-size: cover;
   background-position: center 100px;
   top: 0;
@@ -72,9 +72,9 @@ header ul li{
 
 #person{
   position: absolute;
-  top:200px;
-  right: -100px;
-  width: 100px;
+  top:100px;
+  right: -700px;
+  width: 700px;
   transition: 0.6s all;
 }
 
@@ -83,12 +83,12 @@ header ul li{
 }
 
 
-#person{
+#car{
   position: absolute;
-  bottom:100px;
-  max-width: 40%;
-  left: -250px;
-  width: 250px;
+  bottom:50px;
+  max-width: 100%;
+  left: -650px;
+  width: 600px;
   transition: 0.6s all;
 }
 
@@ -98,7 +98,7 @@ header ul li{
 
 #food{
   width: 50%;
-  bottom: 10%;
+  bottom: 25%;
   margin-left: -25%;
   left: 50%;
   position: absolute;
