@@ -60,16 +60,18 @@ header ul li{
 #back{
   background-image: url(../images/main.jpg);
   background-size: cover;
-  background-position: center 100px;
+  background-position: center ;
   top: 0;
-  top:90%;
-  transition: 0.7s all;
-}
+  top:100%;
+ } 
+
 
 #back.anime{
   top: 0%;
+  animation: fadeIn;
+  animation-duration: 1s; 
 }
-#person{
+#over{
   position: absolute;
   top: 34px;
   right: -700px;
@@ -77,12 +79,12 @@ header ul li{
   transition: 0.4s all;
 }
 
-#person.anime{
+#over.anime{
   right: 10px;
 }
 
 
-#car{
+#battle{
   position: absolute;
   bottom:50px;
   max-width: 100%;
@@ -91,13 +93,13 @@ header ul li{
   transition: 0.4s all;
 }
 
-#car.anime{
+#battle.anime{
   left: 0px;
 }
 
-#food{
-  width: 50%;
-  bottom: 25%;
+#logo{
+  width: 58%;
+  bottom: 20%;
   margin-left: -25%;
   left: 50%;
   position: absolute;
@@ -105,9 +107,9 @@ header ul li{
 }
 
 
-#food.anime {
-  /* cssライブラリanimate.cssを利用 */
-  animation: fadeInRightBig;
+#logo.anime {
+  /* cssライブラリanimate.cを利用 */
+  animation: fadeIn;
   animation-duration: 0.4s; 
   opacity: 1;
 }

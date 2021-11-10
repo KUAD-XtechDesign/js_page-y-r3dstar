@@ -10,9 +10,9 @@ $(function(){
 
   function contentAnime(){
     setTimeout(backAnime,300);//0.3秒後backAnime実行
-    setTimeout(personAnime,2000);//2秒後personAnime実行
-    setTimeout(carAnime,2000);//2秒後carAnime実行
-    setTimeout(foodAnime,3000);//3秒後foodAnime実行
+    setTimeout(overAnime,2000);//2秒後personAnime実行
+    setTimeout(battleAnime,2000);//2秒後carAnime実行
+    setTimeout(logoAnime,2800);//3秒後foodAnime実行
   }
   
   //以下のアニメはCSSでやってみる
@@ -21,16 +21,16 @@ $(function(){
     $("#back").addClass("anime")
   }
 
-  function personAnime(){
-    $("#person").addClass("anime")
+  function overAnime(){
+    $("#over").addClass("anime")
   }
 
-  function carAnime(){
-    $("#car").addClass("anime")
+  function battleAnime(){
+    $("#battle").addClass("anime")
   }
 
-  function foodAnime(){
-    $("#food").addClass("anime")
+  function logoAnime(){
+    $("#logo").addClass("anime")
   }
 
 })
