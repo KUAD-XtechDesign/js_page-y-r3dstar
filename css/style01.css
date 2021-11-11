@@ -114,6 +114,17 @@ header ul li{
   opacity: 1;
 }
 
+#start{
+  position: absolute;
+  bottom: 50px;
+  right: -650px;
+  width: 500px;
+  transition: 0.4s all;
+}
+
+#start.anime{
+  right: 10px;
+}
 
 #intro{
   position: fixed;

@@ -13,6 +13,7 @@ $(function(){
     setTimeout(overAnime,2000);//2秒後personAnime実行
     setTimeout(battleAnime,2000);//2秒後carAnime実行
     setTimeout(logoAnime,2800);//3秒後foodAnime実行
+    setTimeout(startAnime,2800);
   }
   
   //以下のアニメはCSSでやってみる
@@ -33,4 +34,7 @@ $(function(){
     $("#logo").addClass("anime")
   }
 
+  function startAnime(){
+    $("#start").addClass("anime")
+  }
 })
